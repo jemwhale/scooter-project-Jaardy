@@ -1,5 +1,8 @@
 class User {
-    // User code here
+  constructor(username, password) {
+    this.username = username;
+    this.password = password;
   }
-  
-  module.exports = User
+}
+
+module.exports = User;
